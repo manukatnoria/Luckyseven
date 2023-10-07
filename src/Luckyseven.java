@@ -6,7 +6,7 @@ public class Luckyseven {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        //Step 1: Ask the player how much money they want to spend.
+        // Ask the player how much money they want to spend.
         System.out.print("How much money do you want to spend? (€): ");
         int playerMoney = scanner.nextInt();
         
@@ -16,7 +16,7 @@ public class Luckyseven {
             for (int i = 0; i < 3; i++) {
                 randomNumbers[i] = random.nextInt(10) + 1; // Generates random numbers between 1 and 10
             }
-              //Print the random numbers.
+              //Print the random numbers in integer.
             System.out.print("Random Numbers: ");
             for (int num : randomNumbers) {
                 System.out.print(num + " ");
