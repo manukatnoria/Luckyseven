@@ -22,7 +22,7 @@ public class Luckyseven {
                 System.out.print(num + " ");
             }
             System.out.println();
-            //Calculate winnings and update player's balance.
+            // Calculate winnings and update player's balance.
             if (containsSeven(randomNumbers)) {
                 int count = countSevens(randomNumbers);
                 if (count == 3) {
