@@ -38,9 +38,9 @@ public class Luckyseven {
             } else {
                 System.out.println("You lost!");
             }
-            
+            //Print current balance.
             System.out.println("Current balance: €" + playerMoney);
-            
+            //Ask if the player wants to play again.
             System.out.print("Do you want to play again? (yes/no): ");
             String playAgain = scanner.next().toLowerCase();
             if (!playAgain.equals("yes")) {
