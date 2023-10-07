@@ -16,7 +16,7 @@ public class Luckyseven {
             for (int i = 0; i < 3; i++) {
                 randomNumbers[i] = random.nextInt(10) + 1; // Generates random numbers between 1 and 10
             }
-            
+           // Print the random numbers.
             System.out.print("Random Numbers: ");
             for (int num : randomNumbers) {
                 System.out.print(num + " ");
